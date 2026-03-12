@@ -57,7 +57,7 @@ export default function App() {
     {
       title: "Portfolio Website",
       image: "portfolio.png",
-      github: "#",
+      github: "https://github.com/Iamsunil06/Personal-Portfolio",
       live: "#",
       desc: "Personal portfolio built using React, Vite and Tailwind CSS.",
     },
@@ -78,7 +78,8 @@ export default function App() {
     {
       title: "Netflix Clone",
       image: "Netfilix.png",
-      github: "https://github.com/Iamsunil06/NETFILIX-CLONE/tree/main/video53_EX9_NETFILIX%20CLONE",
+      github:
+        "https://github.com/Iamsunil06/NETFILIX-CLONE/tree/main/video53_EX9_NETFILIX%20CLONE",
       live: "#",
       desc: " Technology Used: React.js, JavaScript, CSS, API Integration • Project Type: Web Application.",
     },
@@ -153,10 +154,7 @@ export default function App() {
           </div>
 
           {/* Mobile */}
-          <button
-            className="text-2xl md:hidden"
-            onClick={() => setOpen(!open)}
-          >
+          <button className="text-2xl md:hidden" onClick={() => setOpen(!open)}>
             {open ? <FaTimes /> : <FaBars />}
           </button>
         </div>
@@ -237,7 +235,7 @@ export default function App() {
 
           <div className="flex flex-col gap-4 sm:flex-row">
             <a
-              href="https://drive.google.com/file/d/1t8jOZrBx1FweTJgAWrP5aBpZvBjoJ3BR/view"
+              href="https://drive.google.com/file/d/1PelrPtZ06-SaMFfVs73hdUHxwZxsT5XO/view"
               target="_blank"
               className="px-6 py-3 font-semibold rounded-lg bg-emerald-500 hover:bg-emerald-600 text-slate-900"
             >
@@ -262,13 +260,16 @@ export default function App() {
           </h3>
 
           <p className="max-w-3xl mx-auto mb-12 text-center text-slate-400">
-            I am a B.Tech IT student I am a passionate Full Stack Developer with a strong foundation in web technologies. I enjoy building clean, responsive, and user-friendly applications while continuously learning new skills..
+            I am a B.Tech IT student I am a passionate Full Stack Developer with
+            a strong foundation in web technologies. I enjoy building clean,
+            responsive, and user-friendly applications while continuously
+            learning new skills..
           </p>
 
           <div className="grid gap-8 md:grid-cols-3">
             <div className="p-6 bg-gray-800/60 rounded-xl">
               <h4 className="mb-4 text-xl font-semibold text-emerald-400">
-              💻 Skills
+                💻 Skills
               </h4>
               <ul className="space-y-2 text-sm text-slate-200">
                 <li>✔ HTML, CSS, JavaScript</li>
@@ -283,7 +284,7 @@ export default function App() {
 
             <div className="p-6 bg-gray-800/60 rounded-xl">
               <h4 className="mb-4 text-xl font-semibold text-emerald-400">
-               🧑‍💻 Experience
+                🧑‍💻 Experience
               </h4>
               <ul className="space-y-2 text-sm text-slate-200">
                 <li>✔ Full Stack E-Commerce College Project</li>
@@ -298,65 +299,48 @@ export default function App() {
 
             <div className="p-6 bg-gray-800/60 rounded-xl">
               <h4 className="mb-4 text-xl font-semibold text-emerald-400">
-              🎓 Education
+                🎓 Education
               </h4>
-            
 
-  <ul className="space-y-4 text-sm text-slate-200">
-    <li className="flex items-center justify-between">
-      <div>
-        <p className="font-medium">
-          B.Tech – Information Technology
-        </p>
-        <p className="text-xs text-slate-400">
-          RK University, Rajkot
-        </p>
-        <p className="text-xs text-slate-500">
-          2022 – 2026
-        </p>
-      </div>
-      <span className="font-semibold text-emerald-400">
-        7.5 GPA
-      </span>
-    </li>
+              <ul className="space-y-4 text-sm text-slate-200">
+                <li className="flex items-center justify-between">
+                  <div>
+                    <p className="font-medium">
+                      B.Tech – Information Technology
+                    </p>
+                    <p className="text-xs text-slate-400">
+                      RK University, Rajkot
+                    </p>
+                    <p className="text-xs text-slate-500">2022 – 2026</p>
+                  </div>
+                  <span className="font-semibold text-emerald-400">
+                    7.5 GPA
+                  </span>
+                </li>
 
-    <li className="flex items-center justify-between">
-      <div>
-        <p className="font-medium">
-          12th – Science (BSEB)
-        </p>
-        <p className="text-xs text-slate-400">
-          RNAR College, Samastipur, Bihar 
-        </p>
-        <p className="text-xs text-slate-500">
-          2020 – 2022
-        </p>
-      </div>
-      <span className="font-semibold text-emerald-400">
-        67%
-      </span>
-    </li>
+                <li className="flex items-center justify-between">
+                  <div>
+                    <p className="font-medium">12th – Science (BSEB)</p>
+                    <p className="text-xs text-slate-400">
+                      RNAR College, Samastipur, Bihar
+                    </p>
+                    <p className="text-xs text-slate-500">2020 – 2022</p>
+                  </div>
+                  <span className="font-semibold text-emerald-400">67%</span>
+                </li>
 
-    <li className="flex items-center justify-between">
-      <div>
-        <p className="font-medium">
-          10th (BSEB)
-        </p>
-        <p className="text-xs text-slate-400">
-          SK High School Harishankari, Samastipur, Bihar
-        </p>
-        <p className="text-xs text-slate-500">
-          2019 – 2020
-        </p>
-      </div>
-      <span className="font-semibold text-emerald-400">
-        71%
-      </span>
-    </li>
-  </ul>
-</div>
-
-
+                <li className="flex items-center justify-between">
+                  <div>
+                    <p className="font-medium">10th (BSEB)</p>
+                    <p className="text-xs text-slate-400">
+                      SK High School Harishankari, Samastipur, Bihar
+                    </p>
+                    <p className="text-xs text-slate-500">2019 – 2020</p>
+                  </div>
+                  <span className="font-semibold text-emerald-400">71%</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
